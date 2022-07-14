@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #896A67;
+}
+
+header {
+    background: #DDC8C4;
+    padding: 20px;
+}
+
+header h1{
+    color: #2F1621;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header h3{
+    color: #2F1621;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.scoreBoard { 
+    margin: 20px auto;
+    border: 3px solid #EFF9F0;
+    border-radius: 4px;
+    text-align: center;
+    width: 300px;
+    color: #EFF9F0;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.board {
+    background: #6B4D57;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#userL {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#comL {
+    position: absolute;
+    top: 30px;
+    right: -47px;
+}
+
+.result {
+    font-size: 40px;
+    color: #DDC8C4;
+}
+
+.result p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rpsChoices {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.choice {
+    border: 4px solid #DDC8C4;
+    border-radius: 50%;
+    margin: 0px 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: rgb(53, 52, 52);
+}
+
+#message{
+    text-align: center;
+    color: #DDC8C4;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
